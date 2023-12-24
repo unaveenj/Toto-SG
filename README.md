@@ -9,7 +9,7 @@ Data is scraped from "https://www.singaporepools.com.sg/en/product/Pages/toto_wo
 ## Data Processing
 The data processing involves calculating a Z-score based "Luckiness" index for each outlet based on its Group 1 and Group 2 win frequencies.
 
-### Z-Score Based Luckiness Index
+### Z-Score Based Luck Index
 The Z-score standardizes the number of wins by converting them into a score that represents the number of standard deviations away from the mean wins. This approach provides a more refined measure of each outlet's performance relative to the average.
 
 #### Steps:

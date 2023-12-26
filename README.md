@@ -1,5 +1,7 @@
 # Toto Singapore
-<a href="https://ibb.co/DQ2Kgv3"><img src="https://i.ibb.co/RcwH4sL/Screenshot-2023-12-26-102747.png" alt="Screenshot-2023-12-26-102747" border="0"></a>
+<a href="https://ibb.co/DQ2Kgv3"><img src="https://i.ibb.co/RcwH4sL/Screenshot-2023-12-26-102747.png" alt="Screenshot-2023-12-26-102747" border="0" width="1200"></a>
+<a href="https://ibb.co/RCH0Bkw"><img src="https://i.ibb.co/jL4MWPX/Screenshot-2023-12-26-162735.png" alt="Screenshot-2023-12-26-162735" border="0" width="1200"></a>
+
 ## Overview
 This project analyzes lottery data from various outlets to assign a "Luckiness" index to each. The analysis is based on the frequency of Group 1 and Group 2 wins. The project includes a data scraping component to gather data and a data processing component to calculate Luckiness scores using the Z-score methodology. It also features a map visualizing the geographical distribution of outlets and their scores.
 

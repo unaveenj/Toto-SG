@@ -36,3 +36,6 @@ To view the geographical distribution of lottery outlets and their Luckiness ind
 [![Toto Map](https://felt.com/map/Toto-Map-qZDghtiGQuO2JEZyKxkIND/embed)](https://felt.com/map/Toto-Map-qZDghtiGQuO2JEZyKxkIND?loc=1.34978,103.84148,12.25z&share=1)
 
 This map visualizes each outlet's location along with its Luckiness index, offering a spatial perspective on the distribution of luck across outlets.
+
+## Alternate Map
+![Map](https://www.google.com/maps/d/edit?mid=1o3MQ8v-M1seCQn6H4SxzJzCBZSEQOM4&usp=sharing)

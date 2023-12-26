@@ -38,4 +38,4 @@ To view the geographical distribution of lottery outlets and their Luckiness ind
 This map visualizes each outlet's location along with its Luckiness index, offering a spatial perspective on the distribution of luck across outlets.
 
 ## Alternate Map
-![Map](https://www.google.com/maps/d/edit?mid=1o3MQ8v-M1seCQn6H4SxzJzCBZSEQOM4&usp=sharing)
+[![Map](https://www.google.com/maps/d/edit?mid=1o3MQ8v-M1seCQn6H4SxzJzCBZSEQOM4&usp=sharing)](https://www.google.com/maps/d/edit?mid=1o3MQ8v-M1seCQn6H4SxzJzCBZSEQOM4&usp=sharing)

@@ -2,17 +2,18 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from tqdm import tqdm
+import datetime
 
 def extract_toto_data(url):
-    # Send a GET request to the website
+
     response = requests.get(url)
 
-    # Check if the request was successful
+
     if response.status_code != 200:
         print("Failed to retrieve the webpage")
         return
 
-    # Parse the HTML content
+
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # Find the correct table
@@ -32,13 +33,15 @@ def extract_toto_data(url):
             group2_wins = cells[2].get_text(strip=True)
             data.append([outlet, group1_wins, group2_wins])
 
-    # Convert the data to a pandas DataFrame
     df = pd.DataFrame(data, columns=['Outlet', 'Group 1 Wins', 'Group 2 Wins'])
 
-    # Save the DataFrame as 'toto.csv'
-    df.to_csv('toto.csv', index=False)
 
-    print("Data extracted and saved as 'toto.csv'")
+    current_date = datetime.datetime.now()
+    formatted_date = current_date.strftime("%d-%m-%Y")
+    file_name = f"toto_{formatted_date}.csv"
+    df.to_csv(f'{file_name}', index=False)
+
+    print(f"Data extracted and saved as '{file_name}")
 
 # URL of the webpage to scrape
 url = 'https://www.singaporepools.com.sg/en/product/Pages/toto_wo.aspx'
